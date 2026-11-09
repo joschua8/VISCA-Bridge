@@ -1,0 +1,12 @@
+{
+  "converter_host": "192.168.133.200",
+  "converter_port": 4196,
+  "listen_ip": "0.0.0.0",
+  "cameras": [
+    { "name": "Kamera 1", "listen_port": 5001, "visca_address": 1 },
+    { "name": "Kamera 2", "listen_port": 5002, "visca_address": 2 }
+  ],
+  "status_port": 8099,
+  "log_file": "visca-bridge.log",
+  "debug": false
+}
